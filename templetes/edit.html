@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href='/staticFiles/main.css' />
+  <title>Title</title>
+</head>
+<body >
+  <h1 style="align-content: center">Todos </h1>
+  <form action="{{ url_for('edit',index=index) }}" method="post">
+    <input  class="editInput" type="text" name="todo" value="{{todo['task']}}"/>
+    <button type="submit">save</button>
+
+  </form>
+  
+</body>
+</html>
