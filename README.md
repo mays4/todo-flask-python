@@ -1,8 +1,8 @@
 # ToDo App
 Simple todo app using flask-python
 
-![homepage](../assets/todo-python.png)
-![editpage](../assets/edit-todo-python.png)
+![homepage](./assets/todo-python.png)
+![editpage](./assets/edit-todo-python.png)
 
 
 
