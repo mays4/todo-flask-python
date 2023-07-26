@@ -75,11 +75,11 @@ a{
 }
 .delete{
   background-color: rgb(196, 51, 34);
-  /* background-color: green; */
+  
 }
 .check{
   background-color: rgb(74, 220, 135); 
-  /* background-color: rgb(127, 9, 119);  */
+
 }
 .add{
   width: 400px;

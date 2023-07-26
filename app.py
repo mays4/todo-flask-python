@@ -27,9 +27,6 @@ def check(index):
 
 @app.route("/delete/<int:index>")
 def delete(index):
-    # todo = todos[index]
-    # todo['task']=request.form['todo']
-    # todos.pop(todo['task'])
     del todos[index]
     return redirect(url_for('index'))
        
