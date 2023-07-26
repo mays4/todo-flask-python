@@ -8,7 +8,7 @@ clone the project
 ```
 git clone https://github.com/mays4/todo-flask-python.git
 ```
-install python3 virtual enviorment 
+install python3 virtual environment
 ```
 python3 -m venv env
 source env/bin/activate
